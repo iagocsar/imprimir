@@ -1,7 +1,7 @@
 import os, sys, platform, tkinter as tk
 from tkinter import filedialog, messagebox
 
-PRINTER_NAME = "MDK006"  # altere se o nome no Windows for outro
+PRINTER_NAME = "MDK-006"
 BATCH_SIZE = 50
 
 def split_labels(content):
