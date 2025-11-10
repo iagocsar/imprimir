@@ -20,7 +20,7 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onefile --noconsole main.py --icon=icon.ico
+          pyinstaller --onefile --noconsole main.py
           mkdir output
           move dist\main.exe output\ImpressoraFull.exe
 
